@@ -1,0 +1,24 @@
+.toggleButtonGroup {
+  padding-bottom: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 3px;
+}
+
+.btn-custom:hover {
+  background-color: green;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
