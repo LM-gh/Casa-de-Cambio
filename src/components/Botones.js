@@ -12,7 +12,7 @@ export const Botones = ({
   selectedDate,
   handleChange,
 }) => {
-  const linkTo = "/resultados";
+  const linkTo = "/Casa-de-Cambio/home/resultados";
   return (
     <Fragment>
       <Row className="py-3">

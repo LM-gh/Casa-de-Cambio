@@ -52,7 +52,7 @@ function App() {
     <BrowserRouter>
       <CustomNavBar />
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/Casa-de-Cambio/home">
           <JumbotronComponent />
           {loading ? (
             <div>Cargando...</div>
@@ -73,7 +73,7 @@ function App() {
 
         <Route
           exact
-          path="/resultados"
+          path="/Casa-de-Cambio/home/resultados"
           render={(props) => (
             <Resultados
               {...props}

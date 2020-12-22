@@ -6,7 +6,9 @@ export const CustomNavBar = () => {
   return (
     <Fragment>
       <Navbar bg="primary" variant="dark">
-        <Navbar.Brand href="/">Exchange rates API</Navbar.Brand>
+        <Navbar.Brand href="/Casa-de-Cambio/home">
+          Exchange rates API
+        </Navbar.Brand>
         <Nav className="ml-auto">
           <Nav.Link href="#about">About</Nav.Link>
         </Nav>
