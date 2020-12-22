@@ -52,7 +52,19 @@ function App() {
     <BrowserRouter>
       <CustomNavBar />
       <Switch>
-        <Route exact path="/Casa-de-Cambio/home">
+        <Route
+          exact
+          path="/Casa-de-Cambio/resultados"
+          render={(props) => (
+            <Resultados
+              {...props}
+              monedas={monedas}
+              indexMonedaSeleccionada={indexMonedaSeleccionada}
+              selectedDate={selectedDate}
+            />
+          )}
+        />
+        <Route exact path="/Casa-de-Cambio/">
           <JumbotronComponent />
           {loading ? (
             <div>Cargando...</div>
@@ -70,19 +82,6 @@ function App() {
             />
           )}
         </Route>
-
-        <Route
-          exact
-          path="/Casa-de-Cambio/home/resultados"
-          render={(props) => (
-            <Resultados
-              {...props}
-              monedas={monedas}
-              indexMonedaSeleccionada={indexMonedaSeleccionada}
-              selectedDate={selectedDate}
-            />
-          )}
-        />
       </Switch>
     </BrowserRouter>
   );
