@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Casa-de-Cambio/static/css/main.37b2a3ed.chunk.css",
+    "main.js": "/Casa-de-Cambio/static/js/main.9484354e.chunk.js",
+    "main.js.map": "/Casa-de-Cambio/static/js/main.9484354e.chunk.js.map",
+    "runtime-main.js": "/Casa-de-Cambio/static/js/runtime-main.d9412378.js",
+    "runtime-main.js.map": "/Casa-de-Cambio/static/js/runtime-main.d9412378.js.map",
+    "static/css/2.5ea8d6f0.chunk.css": "/Casa-de-Cambio/static/css/2.5ea8d6f0.chunk.css",
+    "static/js/2.91ffa701.chunk.js": "/Casa-de-Cambio/static/js/2.91ffa701.chunk.js",
+    "static/js/2.91ffa701.chunk.js.map": "/Casa-de-Cambio/static/js/2.91ffa701.chunk.js.map",
+    "index.html": "/Casa-de-Cambio/index.html",
+    "static/css/2.5ea8d6f0.chunk.css.map": "/Casa-de-Cambio/static/css/2.5ea8d6f0.chunk.css.map",
+    "static/css/main.37b2a3ed.chunk.css.map": "/Casa-de-Cambio/static/css/main.37b2a3ed.chunk.css.map",
+    "static/js/2.91ffa701.chunk.js.LICENSE.txt": "/Casa-de-Cambio/static/js/2.91ffa701.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d9412378.js",
+    "static/css/2.5ea8d6f0.chunk.css",
+    "static/js/2.91ffa701.chunk.js",
+    "static/css/main.37b2a3ed.chunk.css",
+    "static/js/main.9484354e.chunk.js"
+  ]
+}
